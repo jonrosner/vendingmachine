@@ -1,0 +1,12 @@
+.root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    background-size: cover;
+    background-color: black;
+}
+
+.content {
+    padding: 16px;
+}

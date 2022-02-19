@@ -1,0 +1,11 @@
+.root {
+    background-color: black;
+    width: 100%;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+.content {
+    padding: 12px;
+}

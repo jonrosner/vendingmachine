@@ -1,0 +1,29 @@
+.root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    background-image: url("/public/vending-machine.jpg");
+    background-size: cover;
+}
+
+.container {
+    width: 400px;
+    margin: auto;
+    padding: 16px;
+}
+
+.changeForm {
+    background: none;
+    border: none;
+    color: blue;
+    font-size: inherit; 
+    background: none;
+    text-decoration: underline;
+    margin: 0;
+    padding-left: 4px;
+ }
+ 
+ .changeForm:hover {
+     cursor: pointer;
+ }
