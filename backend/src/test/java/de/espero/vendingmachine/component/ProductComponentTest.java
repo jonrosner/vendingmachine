@@ -103,9 +103,9 @@ public class ProductComponentTest {
     }
 
     @Test
-    void testGetProduct_whenUserNotAuthenticated_forwardToLoginPage() throws Exception {
+    void testGetProduct_whenUserNotAuthenticated_return401() throws Exception {
         mvc.perform(get(String.format("%s/%s", ProductController.PRODUCT_ROUTE, 1)))
-                .andExpect(status().isFound());
+                .andExpect(status().isUnauthorized());
     }
 
     @WithMockUser
